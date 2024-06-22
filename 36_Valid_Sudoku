@@ -1,0 +1,10 @@
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        res=[]
+        for i in range(len(board)):
+            for j in range(len(board)):
+                num=board[i][j]
+                if num!=".":
+                    res+=[(i,num),(num,j),(i//3,j//3,num)]
+        return len(res)==len(set(res))
+        
