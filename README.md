@@ -1,1 +1,5 @@
 "# Leetcode-Questions"
+"# Questions are solved Using"
+"# Python"
+"# C++"
+"# JavaScript"
