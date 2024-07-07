@@ -12,4 +12,5 @@ class Solution:
             if not left or not right:
                 return False
             return(left.val==right.val and isMirror(left.left,right.right) and isMirror(left.right,right.left))
-        return isMirror(root,root)
+        return isMirror(root,root)0
+        .?
